@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: whitesmoke;
+}
+
+.container {
+  margin: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: burlywood;
+  flex: 1;
+  margin: 10px;
+  max-width: 990px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.profil {
+  background: burlywood;
+  flex: 1;
+  margin: 10px;
+  max-width: 230px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.profil img{
+  width: 200px;
+  height: auto; /* Mengatur tinggi gambar secara otomatis sesuai proporsi */
+  border-radius: 10px; /* Menghilangkan border-radius untuk membuatnya menjadi kotak */
+  margin: 15px;
+}
+
+.content {
+  text-align: justify;
+  background: burlywood;
+  flex: 2;
+  margin: 10px;
+  max-width: 740px;
+  height: 300px;
+  margin : 10px;
+  border-radius: 10px;
+}
